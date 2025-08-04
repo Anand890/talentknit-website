@@ -1,12 +1,5 @@
 {
-  "framework": null,
-  "buildCommand": "cd client && npm ci && npm run build",
-  "outputDirectory": "dist/public",
-  "installCommand": "cd client && npm ci",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": "vite",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist/public"
 }
